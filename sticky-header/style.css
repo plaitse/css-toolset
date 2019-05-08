@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  
+  color: #fff;
+  
+  font-size: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header, .subheader, .content, .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  min-height: 8vh;
+  
+  background: #985eff;
+}
+
+.subheader {
+  position: sticky;
+  top: 0;
+  
+  min-height: 15vh;
+  
+  background: #7f39fb;
+}
+
+.content {
+  min-height: 140vh;
+  
+  background: #dbb1ff;
+  color: #000;
+}
+
+.footer {
+  min-height: 10vh;
+  
+  background: #bb86fc;
+}
